@@ -1,8 +1,8 @@
-var express = require('express')
-var cors = require('cors')
-var app = express()
+// var express = require('express')
+// var cors = require('cors')
+// var app = express()
 
-app.use(cors())
+// app.use(cors())
 
 fetch("https://jrkapitest.onrender.com/")
   .then((response) => response.json())
